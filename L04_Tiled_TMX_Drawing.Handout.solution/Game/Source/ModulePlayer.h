@@ -59,6 +59,7 @@ public:
 	Collider* collider = nullptr;
 	Collider* right = nullptr;
 	Collider* left = nullptr;
+	Collider* up = nullptr;
 
 	uint steps = 0000;
 	uint limit = 00;
@@ -82,6 +83,8 @@ public:
 	bool collision;
 	bool dead;
 	bool Win;
+	bool Right;
+	bool Left;
 };
 
 #endif //!__MODULE_PLAYER_H__
